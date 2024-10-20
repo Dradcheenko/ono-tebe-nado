@@ -4,6 +4,7 @@
   align-items: center;
   padding: 92px 48px;
 }
+
 li::marker {
   font-size: 18px;
 }
@@ -11,14 +12,17 @@ li::marker {
 .header__links-list-item {
   list-style: circle;
 }
+
 .header__links-list-item_no-bullit {
   list-style: none;
 }
+
 .header__links-list {
   display: flex;
   gap: 32px;
   letter-spacing: 0.18px;
 }
+
 .header__link {
   font-size: 18px;
   text-underline-position: under;
@@ -27,9 +31,11 @@ li::marker {
 .header__logo {
   width: 137px;
 }
+
 .header__logo-image {
   width: 100%;
 }
+
 .adress {
   max-width: 240px;
   font-size: 18px;
@@ -37,6 +43,7 @@ li::marker {
   line-height: 1.35;
   text-underline-position: under;
 }
+
 .header__address {
   display: block;
   justify-self: end;
@@ -68,6 +75,7 @@ li::marker {
   letter-spacing: 30px;
   text-transform: uppercase;
 }
+
 /* ОНО */
 
 .letter-spacing-extended {
@@ -79,6 +87,7 @@ li::marker {
 .aligned-text {
   display: block;
 }
+
 .aligned-text_center {
   padding-top: 11px;
   text-align: center;
@@ -88,6 +97,7 @@ li::marker {
   margin-top: 7px;
   text-align: right;
 }
+
 .no-letter-spacing {
   letter-spacing: initial;
 }
@@ -97,8 +107,8 @@ li::marker {
   justify-content: flex-end;
   align-items: center;
   align-content: center;
-  /* padding-bottom: 33px; */
 }
+
 .cover__description-text {
   z-index: 0;
   padding-right: 80px;
@@ -107,6 +117,7 @@ li::marker {
   text-transform: uppercase;
   word-spacing: 18px;
 }
+
 .bet-button {
   z-index: 0;
   width: 256px;
@@ -124,8 +135,7 @@ li::marker {
 .lots {
   padding: 179px 24px 0;
 }
-
-.lots__heading {
+Ç .lots__heading {
   display: inline-block;
   width: 121px;
   padding-bottom: 27px;
@@ -135,22 +145,26 @@ li::marker {
   text-align: left;
   text-transform: uppercase;
 }
+
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
 }
+
 .lots__card-list-item {
   flex-grow: 1;
   max-width: 334px;
   min-height: 563px;
   list-style: none;
 }
+
 .card-link {
   display: block;
   height: 100%;
   text-decoration: none;
 }
+
 .card {
   position: relative;
   z-index: 0;
@@ -163,6 +177,7 @@ li::marker {
   background-position: center;
   background-size: cover;
 }
+
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
@@ -174,6 +189,7 @@ li::marker {
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
+
 .overlay {
   position: absolute;
   top: 0px;
@@ -183,6 +199,7 @@ li::marker {
   z-index: 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
 .card__title {
   z-index: 0;
   color: white;
@@ -216,6 +233,7 @@ li::marker {
   /* position: relative; */
   font-size: 20px;
 }
+
 .about {
   display: grid;
   grid-template-columns: 34% 66%;
@@ -233,11 +251,13 @@ li::marker {
   border-radius: 50%;
   background-color: black;
 }
+
 .about__logo-image {
   max-width: 100%;
 
   height: 114px;
 }
+
 .about__title {
   padding: 100px 0;
   color: #000;
@@ -248,6 +268,7 @@ li::marker {
   line-height: normal;
   text-transform: uppercase;
 }
+
 .about__text {
   display: flex;
   flex-direction: column;
@@ -272,6 +293,7 @@ footer {
   text-underline-position: under;
   list-style: none;
 }
+
 .footer__menu-list .footer__menu-link_active {
   text-decoration-line: none;
 }
