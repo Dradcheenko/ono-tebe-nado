@@ -33,13 +33,15 @@ li::marker {
 .adress {
   max-width: 240px;
   font-size: 18px;
-  font-style: normal;
+  font-style: italic;
   line-height: 1.35;
+  text-underline-position: under;
 }
 .header__address {
   display: block;
   justify-self: end;
-  text-underline-position: under;
+
+  font-style: normal;
 }
 
 /* COVER */
